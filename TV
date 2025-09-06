@@ -1,15 +1,31 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="kapcha" tvg-name="LOCAL" tvg-logo="https://i.imgur.com/54f9r5A.png" group-title="LOCAL",KAPAMILYA (TFC)
+#EXTINF:-1 tvg-id="kapcha" tvg-name="LOCAL" tvg-logo="https://i.imgur.com/54f9r5A.png" group-title="🇵🇭 LOCAL",KAPAMILYA (TFC)
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=bd17afb5dc9648a39be79ee3634dd4b8:3ecf305d54a7729299b93a3d69c02ea5
 https://d1uf7s78uqso1e.cloudfront.net/out/v1/efa01372657648be830e7c23ff68bea2/index.mpd
 
-#EXTINF:-1 tvg-id="converge.ph" tvg-name="LOCAL" tvg-logo="https://i.imgur.com/0xo8Ivs.png" group-title="LOCAL",CONVERGE VISION INFO
+#EXTINF:-1 tvg-id="converge.ph" tvg-name="LOCAL" tvg-logo="https://i.imgur.com/0xo8Ivs.png" group-title="🇵🇭 LOCAL",CONVERGE VISION INFO
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
 http://143.44.136.110:6610/001/2/ch00000090990000001339/manifest.mpd?virtualDomain=001.live_hls.zte.com
 
-#EXTINF:-1 tvg-id="kapcha1" tvg-name="LOCAL" tvg-logo="https://imgur.com/a/zvnCFJz" group-title="LOCAL",KAPAMILYA HD (CON)
+#EXTINF:-1 tvg-id="kapcha1" tvg-name="LOCAL" tvg-logo="https://imgur.com/a/zvnCFJz" group-title="🇵🇭 LOCAL",KAPAMILYA HD (CON)
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
 http://143.44.136.110:6610/001/2/ch00000090990000001286/manifest.mpd?virtualDomain=001.live_hls.zte.com
+
+#EXTINF:-1 tvg-id="kapcha2" tvg-name="KAPAMILYA SD (CON)" tvg-logo="https://imgur.com/a/zvnCFJz" group-title="🇵🇭 LOCAL",KAPAMILYA SD (CON)
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
+http://143.44.136.110:6610/001/2/ch00000090990000001248/manifest.mpd?virtualDomain=001.live_hls.zte.com
+
+#EXTINF:-1 tvg-id="kapcha1" tvg-name="PBB CE LIVE (TFC)" tvg-logo="https://i.imgur.com/Niy6Xka.jpg" group-title="🇵🇭 LOCAL",PBB CE LIVE (TFC)
+#EXTVLCOPT:http-referrer=https://www.iwanttfc.com/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=8438e8495659425585a09749cd6bc39a:9d92b12db092fe6bdf2207ef7a2a9e65
+https://abslive.akamaized.net/dash/live/2112806/pbbmain/manifest.mpd
+
+#EXTINF:-1 tvg-id="tfcasia" tvg-name="TFC ASIA" tvg-logo="https://imgur.com/eD1la7S" group-title="🇵🇭 LOCAL",TFC ASIA
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=9568cc84e1d944f38eac304517eab6fd:f12142af8f39b3bab79d3679d3665ebe
+https://d1facupi3cod3q.cloudfront.net/out/v1/e3633f8591e248b0af1af15a474bfa4a/index.mpd
